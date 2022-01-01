@@ -1,4 +1,6 @@
 
-let interstRate = 0.3;
-interstRate =1;
-console.log(interstRate);
+let name = 'Jaya'; 
+let age = 30;
+let isApproved = true;
+let firstName = undefined;
+let selectedColor = null;
