@@ -1,12 +1,10 @@
-//performing a task
-function greet(name, lastName) {
-    console.log('Hello' + name + '' +  lastName );
-}
-//Calculate a value
-function square(number) {
-    return number * number;
+let x =10;
 
 
-}
 
-console.log(square(2));
+x = x +5;
+x +=5;
+
+
+x= x *3;
+x*=3;
