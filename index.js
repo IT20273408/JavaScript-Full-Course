@@ -1,13 +1,25 @@
-//Falsy (false)
-//underfined
-//null
-//0
-//false
-//''
-///NaN
+// 1 = 00000001
+// 2 = 00000010
+// 3 = 00000011
+//R =  00000000
 
-let userColor = undefined;
-let defaultColor = 'blue';
-let currentColor = userColor || defaultColor;
+//Read , Write, Execute
+//00000100
+//00000110
+//00000111
 
-console.log(currentColor) ;
+//console.log(1 | 2); //BitWise OR
+//console.log(1 & 2); //BitWise AND
+
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
+let myPermission = 0;
+myPermission = myPermission  | writePermission
+console.log(myPermission);
+
+
+let message = (myPermission & readPermission) ? 'yes': 'no';
+
+console.log(message);
+
