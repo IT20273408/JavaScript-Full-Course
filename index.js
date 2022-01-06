@@ -1,21 +1,13 @@
-//Logical AND (&&)
-//console.log(true && true);
-//console.log(false && true);
+//Falsy (false)
+//underfined
+//null
+//0
+//false
+//''
+///NaN
 
-/*let highIncome = true;
-let goodCreditScore = true;
-let eligibleForLoan  = highIncome && goodCreditScore;
+let userColor = undefined;
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
 
-console.log(eligibleForLoan);*/
-
-//Logical OR (||)
-let highIncome = false;
-let goodCreditScore = false;
-let eligibleForLoan  = highIncome || goodCreditScore;
-console.log('Eligable',eligibleForLoan);
-
-
-//NOT(!)
-let applicationRefused = ! eligibleForLoan;
-console.log('Application Refused', applicationRefused);
-
+console.log(currentColor) ;
