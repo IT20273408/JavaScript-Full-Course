@@ -9,16 +9,14 @@ for (let key in person)
 console.log(key, person[key]);
 
 
-//Dot notattion
-//person.name
-
-//Bracket
-//person['name']
-
 
 const colors = ['red' , 'green', 'blue'];
 
+
+//for of
+
 for (let index in colors)
-console.log(index, colors[index]);
+console.log(color);
+
 
 
