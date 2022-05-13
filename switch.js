@@ -15,4 +15,25 @@ switch(jobRole.toLocaleLowerCase()) {
                     console.log(empName+ 'something else');
                     break;
 
+
+}
+
+
+//-----------------------------------------------------------------
+var age = 20;
+
+switch(true) {
+    case age < 20:
+        console.log(empName+ 'is under age');
+        break;
+        case age >= 20 && age < 30:
+            console.log(empName+ 'is in perfect age');
+        break;
+        case age >=30 && age > 50:
+            console.log(empName+ 'is mature');
+        break;
+        default:
+            console.log(empName+ 'is too old');
+        break;
+
 }
